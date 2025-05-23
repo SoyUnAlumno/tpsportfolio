@@ -1,4 +1,10 @@
 {
-  "language": "中文",
+
+  "common": {
+    "language": {
+        "change_language": "更改语言",
+          "language": "中文"
+    }
+  },
   "under_construction": "建设中"
 }

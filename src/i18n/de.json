@@ -1,4 +1,9 @@
 {
-  "language": "Deutch",
+  "common": {
+    "language": {
+      "change_language": "Sprache ändern",
+      "language": "Deutch"
+    }
+  },
   "under_construction": "Im bau"
 }

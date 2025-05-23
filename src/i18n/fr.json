@@ -1,4 +1,10 @@
 {
-  "language": "Français",
+
+  "common": {
+    "language": {
+        "change_language": "Changer de langue",
+          "language": "Français"
+    }
+  },
   "under_construction": "En construction"
 }

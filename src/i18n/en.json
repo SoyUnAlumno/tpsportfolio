@@ -1,4 +1,10 @@
 {
-  "language": "English",
+
+  "common": {
+    "language": {
+        "change_language": "Change language",
+        "language": "English"
+    }
+  },
   "under_construction": "Under construction"
 }
