@@ -1,4 +1,9 @@
 {
-  "language": "Español",
+  "common": {
+    "language": {
+      "change_language": "Cambiar idioma",
+      "language": "Español"
+    }
+  },
   "under_construction": "En construcción"
 }

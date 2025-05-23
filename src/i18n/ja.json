@@ -1,4 +1,9 @@
 {
-  "language": "日本語",
+  "common": {
+    "language": {
+      "change_language": "言語を変更する",
+      "language": "日本語"
+    }
+  },
   "under_construction": "建設中"
 }
