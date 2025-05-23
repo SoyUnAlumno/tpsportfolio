@@ -1,14 +1,18 @@
-import { useState } from 'react'
-import reactLogo from '../../../assets/react.svg'
-import viteLogo from '/vite.svg'
-import styles from './App.module.css'
+import { Trans, useTranslation } from 'react-i18next';
+import { useEffect, useState } from 'react';
+import Header from '@/components/cells/header/Header'
+import reactLogo from '../../../assets/react.svg';
+import styles from './App.module.css';
+import viteLogo from '/vite.svg';
 
 function App() {
   const [count, setCount] = useState(0)
+  const { t, i18n } = useTranslation();
 
   return (
     <>
       <div>
+        <Header />
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className={styles.logo} alt="Vite logo" />
         </a>
@@ -22,7 +26,7 @@ function App() {
           count is {count}
         </button>
         <p>
-          Under construction...
+          {t('under_construction')} ~ {t('language')}
         </p>
       </div>
       <p className={styles['read-the-docs']}>
