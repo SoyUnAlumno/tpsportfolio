@@ -1,7 +1,6 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import detector from "i18next-browser-languagedetector";
-// TODO add rest of langs
 import de from "@/i18n/de";
 import en from "@/i18n/en";
 import es from "@/i18n/es";
