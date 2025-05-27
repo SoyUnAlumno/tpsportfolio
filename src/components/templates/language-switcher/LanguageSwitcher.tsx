@@ -1,10 +1,11 @@
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { useParams, useNavigate, Outlet, type NavigateFunction } from "react-router-dom";
+import { useParams, useNavigate, Outlet, type NavigateFunction, useLocation } from "react-router-dom";
 
 
 function LanguageSwitcher() {
     const { lang } = useParams();  // Get language parameter from URL
+    const location = useLocation()
     const { i18n } = useTranslation();
     const navigate: NavigateFunction = useNavigate();
 
