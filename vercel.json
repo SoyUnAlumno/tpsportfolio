@@ -1,5 +1,4 @@
 {
-  "src": "src/main.tsx",
   "use": "@vercel/node",
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
