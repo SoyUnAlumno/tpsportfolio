@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { useParams, useNavigate, Outlet, NavigateFunction } from "react-router-dom";
+import { useParams, useNavigate, Outlet, type NavigateFunction } from "react-router-dom";
 
 
 function LanguageSwitcher() {
