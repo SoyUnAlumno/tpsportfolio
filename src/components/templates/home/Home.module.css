@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+p {
+  @apply text-sky-900 dark:text-sky-400;
+}
