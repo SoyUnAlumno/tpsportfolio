@@ -13,8 +13,7 @@ function LanguageSwitcher() {
             i18n.changeLanguage(lang); // Change language based on URL param
             const splitLocation = location.pathname.split('/')
             splitLocation[1] = lang
-            navigate(splitLocation.join('/'), { replace: true }); // Optional: update URL if needed
-            // navigate(`/${lang}`); // Optional: update URL if needed
+            navigate(splitLocation.join('/'), { replace: true });
         }
     }, [lang, i18n, navigate]);
 
